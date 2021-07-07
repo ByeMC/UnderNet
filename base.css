@@ -1,0 +1,58 @@
+
+@font-face {
+font-family: "Determination Mono";
+src: url("DeterminationMonoWeb.woff") format("woff");
+}
+
+@font-face {
+font-family: "Determination Sans";
+src: url("DeterminationSansWeb.woff") format("woff");
+}
+
+html {
+    background-color: ghostwhite;
+	font-family: "Determination Sans", sans-serif;
+}
+
+#navbar {
+    background-color: #1c48e8;
+    color: #FFFFFF;
+}
+
+#footer {
+   position:absolute;
+   bottom:0.1%;
+   width:98%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+   font-background: #6cf;
+}
+
+#footer p {
+	margin-left: 5px;
+}
+
+div#navbar a:link {
+	color: white;
+}
+
+div#navbar a:visited {
+	color: white;
+}
+
+div#navbar a:hover {
+	color: ghostwhite;
+}
+
+span.mttstory:before {
+	content: " [[MTT NEWS HEADLINE]] • ";
+	color: white;
+}
+
+span.mttstory {
+    color: yellow;	
+}
+
+marquee {
+    font-family: "Determination Mono", monospace;	
+}
